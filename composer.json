@@ -1,0 +1,20 @@
+{
+    "name": "tlingc/think-session-tablestore",
+    "description": "Aliyun tablestore session driver for thinkphp 6",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "TLingC",
+            "email": "my@tlingc.com"
+        }
+    ],
+    "require": {
+        "topthink/framework": "^6.0",
+        "aliyun/aliyun-tablestore-sdk-php": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "tlingc\\think\\session\\driver\\": "src"
+        }
+    }
+}
