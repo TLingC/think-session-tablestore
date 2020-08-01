@@ -38,7 +38,7 @@ config/session.php
 
 ## 限制
 1. 数据过期机制仅在数据被取出及超过生命周期时应用，不建议使用此驱动缓存永久数据。
-3. 关于表格存储产品自身限制，参阅 [https://help.aliyun.com/document_detail/91524.html](https://help.aliyun.com/document_detail/91524.html)。
+2. 关于表格存储产品自身限制，参阅 [https://help.aliyun.com/document_detail/91524.html](https://help.aliyun.com/document_detail/91524.html)。
 
 ## 协议
 MIT
